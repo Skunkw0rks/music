@@ -1,0 +1,3 @@
+scrapy crawl music 
+mongo --eval "db.tracks.find().sort({_id::1}).limit(20).pretty().shellPrint();" viperial
+
